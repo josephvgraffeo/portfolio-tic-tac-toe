@@ -1,0 +1,35 @@
+.box {
+    background-color: #1b1a1acb;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 0 20px #ffffffc4;
+    width: 5.35rem;
+    height: 5.35rem;
+    text-align: center;
+    text-justify: center;
+    font-size: 5.5em;
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 5rem;
+    margin: 0.5rem;
+}
+
+.box:hover {
+    background-color: #1b1a1ae4;
+}
+
+.x {
+    color: #fc4fa0;
+    text-shadow: 0 0 12px #eb72aac2;
+}
+
+.o {
+    color: #2c97ef;
+    text-shadow: 0 0 12px #53a5e9be;
+}
+
+.box:hover {
+    background-color: #000000dc;
+    box-shadow: 0 0 10px #939292bf;
+    cursor: pointer;
+}

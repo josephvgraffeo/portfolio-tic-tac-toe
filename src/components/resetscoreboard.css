@@ -1,0 +1,22 @@
+.resetscore {
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #ffffffc3;
+    background-color: #000000b5;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    font-family: monospace;;
+    margin: 2rem auto;
+    display: block;
+    text-shadow: 0 0 3px #ffffff76;
+    box-shadow: 0 0 8px #ffffff74;
+}
+
+.resetscore:hover {
+    background-color: #000000;
+    color: #ffffffe3;
+    text-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 0 12px #ffffff;
+    font-size: 1.1rem;
+}
