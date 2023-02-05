@@ -6,4 +6,4 @@ It is completely functional, but I would love to add some kind of option to play
 
 ![image](./public/screenshot.webp)
 
-[Play a game for yourself!]()
+[Play a game for yourself!](https://tic-tac-toe-react-jg.web.app/)
