@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import "./app.css"
 import { Board } from "./components/Board.jsx"
 import { Scoreboard } from './components/Scoreboard.jsx';
 import { ResetButton } from './components/ResetButton.jsx';
 import { ResetScoreBoard } from './components/ResetScoreBoard';
+import { Footer } from './components/Footer.jsx';
+import "./app.css"
 
 
 function App() {
@@ -71,6 +72,7 @@ function App() {
       <Board board={board} onClick={gameOver ? resetGame : handleClick}/>
       <ResetButton  resetGame={resetGame}/>
       <ResetScoreBoard scores={scores} resetScore={resetScore} />
+      <Footer />
     </div>
   );
 }
