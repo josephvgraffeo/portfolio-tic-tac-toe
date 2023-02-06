@@ -6,7 +6,7 @@ It is completely functional, but I would love to add some kind of option to play
 
 Followed a tutorial to get the basic layout, but made many improvements for functionality.
 
-Updates: Update so the game would reset to the "X" player when a round ended. Fixed game so reset works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the board. All styling was mine.
+Updates: Update so the game would reset to the "X" player when a round ended. Fixed game so reset works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the game board. All styling was mine.
 
 ![image](./public/screenshot.webp)
 
