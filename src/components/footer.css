@@ -1,11 +1,6 @@
-.footertext {
-    position: absolute;
-    bottom: 0px;
-    right: 15px;
-    z-index: 1;
-    color: #ff60aaac;
-}
-
-.footertext:hover {
-    color: #ff60aa;
+.footer > p {
+    color: #34057bd4;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
 }

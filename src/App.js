@@ -4,6 +4,7 @@ import { Scoreboard } from './components/Scoreboard.jsx';
 import { ResetButton } from './components/ResetButton.jsx';
 import { ResetScoreBoard } from './components/ResetScoreBoard';
 import { Footer } from './components/Footer.jsx';
+import { WinnerModal } from './components/Winner.jsx';
 import "./app.css"
 
 
@@ -28,21 +29,28 @@ function App() {
   const handleClick = (boxIndex) => {
     const updatedBoard = [...board];
     updatedBoard[boxIndex] = xPlayer? "X" : "O";
-    
-    const winner = checkForWinner(updatedBoard);
-    if (winner) {
-      if(winner === "O") {
-        let oScore = scores.oScore + 1;
-        setScores({...scores, oScore});
-      } else {
-        let xScore = scores.xScore + 1;
-        setScores({...scores, xScore});
-      }
+
+  const winner = checkForWinner(updatedBoard);
+
+  const oWinner = checkForWinner(updatedBoard);
+    if (winner === "O") {
+      let oScore = scores.oScore + 1;
+      alert("O Player Wins!")
+      setScores({...scores, oScore});
+    }
+
+  const xWinner = checkForWinner(updatedBoard);
+    if (winner === "X") {
+      let xScore = scores.xScore + 1;
+      alert("X Player Wins!")
+      setScores({...scores, xScore});
     }
 
     setBoard(updatedBoard);
     setXPlayer(!xPlayer);
+
   }
+
 
   const checkForWinner = (board) => {
     for (let i = 0; i < WIN_CONDITIONS.length; i++) {
@@ -69,7 +77,7 @@ function App() {
   return (
     <div className="App">
       <Scoreboard scores={scores} setXPlayer={xPlayer}/>
-      <Board board={board} onClick={gameOver ? resetGame : handleClick}/>
+      <Board board={board} onClick={gameOver ? <WinnerModal /> && resetGame : handleClick}/>
       <ResetButton  resetGame={resetGame}/>
       <ResetScoreBoard scores={scores} resetScore={resetScore} />
       <Footer />
