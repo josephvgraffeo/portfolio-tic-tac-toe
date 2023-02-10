@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App">
       <Scoreboard scores={scores} setXPlayer={xPlayer}/>
-      <Board board={board} onClick={gameOver ? <WinnerModal /> && resetGame : handleClick}/>
+      <Board board={board} onClick={gameOver ? resetGame : handleClick}/>
       <ResetButton  resetGame={resetGame}/>
       <ResetScoreBoard scores={scores} resetScore={resetScore} />
       <Footer />
