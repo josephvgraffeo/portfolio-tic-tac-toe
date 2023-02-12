@@ -6,7 +6,7 @@ It is completely functional, but I would love to add some kind of option to play
 
 Followed a [tutorial](https://www.youtube.com/watch?v=c8dXnuVwmA8) to get the basic layout, but made many improvements for functionality.
 
-Updates: The game would not reset to the "X" player when a round ended, that has been fixed. Fixed game so resetting the board works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the game board. All styling was customized.
+Updates: The game would not reset to the "X" player when a round ended, that has been fixed. Fixed game so resetting the board works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the game board. Winner modal and background color change to winner players color added. All styling was customized.
 
 ![image](./public/tictactoe-vid.webp)
 
