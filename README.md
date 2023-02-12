@@ -8,6 +8,6 @@ Followed a [tutorial](https://www.youtube.com/watch?v=c8dXnuVwmA8) to get the ba
 
 Updates: The game would not reset to the "X" player when a round ended, that has been fixed. Fixed game so resetting the board works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the game board. All styling was customized.
 
-![image](./public/screenshot.webp)
+![image](./public/tictactoe-vid.webp)
 
-[Play a game for yourself!](https://tic-tac-toe-react-jg.web.app/)
+[Play a game for yourself!](https://tic-tac-toe-react-jg.web.app)

@@ -4,7 +4,7 @@ import { Scoreboard } from './components/Scoreboard.jsx';
 import { ResetButton } from './components/ResetButton.jsx';
 import { ResetScoreBoard } from './components/ResetScoreBoard';
 import { Footer } from './components/Footer.jsx';
-import "./app.css"
+import "./App.css"
 
 
 function App() {
