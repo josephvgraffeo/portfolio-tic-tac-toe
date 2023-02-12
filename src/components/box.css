@@ -19,13 +19,13 @@
 }
 
 .x {
-    color: #fc4fa0;
-    text-shadow: 0 0 12px #eb72aac2;
+    color: #ff00a6;
+    text-shadow: 0 0 12px #ff449bb7;
 }
 
 .o {
-    color: #2c97ef;
-    text-shadow: 0 0 12px #53a5e9be;
+    color: #01c0ff;
+    text-shadow: 0 0 12px #399ff3cf;
 }
 
 .box:hover {

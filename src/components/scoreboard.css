@@ -19,13 +19,13 @@
 }
 
 .x-score {
-    color: #ff60aa;
-    border-bottom: 5px solid #ff60aa;
+    color: #ff00a6;
+    border-bottom: 5px solid #ff00a6;
     border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .o-score {
-    color: #2e91e2;
-    border-bottom: 5px solid #2e91e2;
+    color: #01b3ff;
+    border-bottom: 5px solid #01b3ff;
     border-radius: 0 0.5rem 0.5rem 0;
 }

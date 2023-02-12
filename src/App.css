@@ -1,9 +1,64 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-image: linear-gradient(to right, #fc54a2da, #3298ebde);
+    background: linear-gradient(to right, #ff00a6, #01c0ff);
     font-family: monospace;
+    padding: 3.5rem;
+}
+
+.x-winner {
+    background: linear-gradient(to right, #ff00a6, #eb1f8ff4, #f21ebdeb);
+}
+
+.o-winner {
+    background: linear-gradient(to right, #01c0ffeb, #008efbf4, #0a63dfeb);
+}
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.742);
+    width: 430px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #010101;
+    border: 5px solid #0000008a;
+}
+
+.Modal>button {
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #ffffffc3;
+    background-color: #000000b5;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    font-family: monospace;
+    margin: 2rem auto;
+    display: block;
+    text-shadow: 0 0 3px #ffffff76;
+    box-shadow: 0 0 8px #ffffff74;
+}
+
+.Modal>button:hover {
+    background-color: #000000;
+    color: #ffffffe3;
+    text-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 0 12px #ffffff;
+    font-size: 1.7rem;
 }
