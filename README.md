@@ -10,4 +10,4 @@ Followed a [tutorial](https://www.youtube.com/watch?v=c8dXnuVwmA8) to get the ba
 
 [Play a game for yourself!](https://tic-tac-toe-react-jg.web.app)
 
-Updates: The game would not reset to the "X" player when a round ended, that has been fixed. Fixed game so resetting the board works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the game board. Winner modal and background color change to winner players color added. All styling was customized.
+Updates: The game would not reset to the "X" player when a round ended, that has been fixed. Fixed game so resetting the board works properly, even when there is no winner for the round. Added a reset scoreboard function, which also resets the game board. Winner modal added and background color change to winning players color added. All styling was customized.
