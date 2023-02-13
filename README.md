@@ -2,7 +2,7 @@
 
 Wanted to make a simple game, so what better than Tic-Tac-Toe!
 
-It is completely functional, but I would love to add some kind of option to play against an AI opponent when you don't have 2 human players!
+It is completely functional, but in the future I would love to add an option to play against an AI opponent when you don't have 2 human players!
 
 Followed a [tutorial](https://www.youtube.com/watch?v=c8dXnuVwmA8) to get the basic layout, but made many improvements for functionality. (I will list my updates at the bottom of the page)
 
