@@ -6,7 +6,7 @@ It is completely functional, but in the future I would love to add an option to 
 
 Followed a [tutorial](https://www.youtube.com/watch?v=c8dXnuVwmA8) to get the basic layout, but made many improvements for functionality. (I will list my updates at the bottom of the page)
 
-![[image](./public/tictactoe-vid.webp)](https://tic-tac-toe-react-jg.web.app)
+[![image](./public/tictactoe-vid.webp)](https://tic-tac-toe-react-jg.web.app)
 
 [Play a game for yourself!](https://tic-tac-toe-react-jg.web.app)
 
