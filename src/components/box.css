@@ -5,8 +5,8 @@
     box-shadow: 0 0 20px #ffffffc4;
     width: 5.35rem;
     height: 5.35rem;
-    text-align: center;
-    text-justify: center;
+    display: flex;
+    justify-content: center;
     font-size: 5.1em;
     font-family: monospace;
     font-weight: bold;
@@ -16,8 +16,9 @@
 
 @media (max-width: 991.98px) { 
     .box {
-        font-size: 2.5em;
-        margin: 0,
+        font-size: 3.4em;
+        margin: 5;
+        line-height: 2;
     }
 }
 
